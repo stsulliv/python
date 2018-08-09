@@ -14,7 +14,7 @@ import json
 # import urllib3
 # urllib3.disable_warnings()
 
-r = requests.get('https://ptr.secureitquest.com/api/lists/5/members.json', verify=False)
+r = requests.get('https://app.sample.com/api/lists/5/members.json', verify=False)
 
 json_object = json.dumps(r.json(), indent=4)
 
