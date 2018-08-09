@@ -12,8 +12,8 @@ import urllib3
 
 urllib3.disable_warnings()
 
-r = requests.get('https://ptr.secureitquest.com/api/lists/5/members.json',
-  headers={'Authorization': '0dba0006-294e-4dcb-988e-45b47869d7be'}, verify=False)
+r = requests.get('https://app.sampole.com/api/lists/5/members.json',
+  headers={'Authorization': '111a1111-2223-333e-4ea4-55555555ee5e'}, verify=False)
 
 json_object = json.dumps(r.json(), indent=4)
 
